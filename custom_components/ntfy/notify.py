@@ -71,6 +71,7 @@ class HassAgentNotificationService(BaseNotificationService):
             'topic': topic,
             'message': message,
             'title': title,
+            'markdown': data.get('markdown', False),
             'tags': data.get('tags', []),
             'priority': data.get('priority', 3),
             'attach': data.get('attach', "") or data.get('image', ""),

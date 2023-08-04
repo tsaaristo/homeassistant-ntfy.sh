@@ -76,6 +76,7 @@ action:
       data:
         tags: [tags]
         priority: 3
+        markdown: true
         attach: https://placekitten.com/400/300
         filename: filename.jpg
         click: https://www.home-assistant.io/
